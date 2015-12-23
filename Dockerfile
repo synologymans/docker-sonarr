@@ -25,4 +25,4 @@ VOLUME ["/config"]
 VOLUME ["/data"]
 
 ENTRYPOINT ["/usr/bin/mono"]
-CMD ["--debug", "/opt/NzbDrone/NzbDrone.exe"]
+CMD ["/opt/NzbDrone/NzbDrone.exe"]
