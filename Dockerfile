@@ -18,6 +18,8 @@ RUN apt-get update && \
 RUN mkdir -p /config && \
     mkdir -p /data
 
+ADD mosquittonotifier.sh /bin/mosquittonotifier.sh
+RUN chmod +x /bin/mosquittonotifier.sh
 
 EXPOSE 8081
 
