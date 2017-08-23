@@ -1,7 +1,7 @@
 FROM ubuntu:xenial
 
 MAINTAINER cybermans <cybermans@gmail.com>
-LABEL version 20170823
+LABEL version 
 
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FDA5DFFC
 RUN echo "deb http://apt.sonarr.tv/ master main" | tee /etc/apt/sources.list.d/sonarr.list
